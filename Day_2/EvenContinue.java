@@ -9,7 +9,7 @@ public class EvenContinue {
         System.out.print("Enter the Number : ");
         int n = scan.nextInt();
         int sum = 0;
-        for(int i = 0;i<n;i++){
+        for(int i = 0;i<=n;i++){
             if(i%2 != 0) continue;
             sum+=i;
         }
