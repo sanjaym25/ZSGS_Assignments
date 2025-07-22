@@ -1,18 +1,32 @@
-package Day_2;
+/*
+ZOHO
+CORP
+ORAT
+IONS
+ */
+package Day_2.Part_1.Pattern_Printing;
 
 import java.util.Scanner;
 
-public class Pattern2 {
+public class StringPatern {
     public static void main(String[] args) {
         // User Input
+
         Scanner scan = new Scanner(System.in);
+
         // Enter User Input String 
+
         System.out.print("Enter the String  : ");
         String str = scan.nextLine();
         System.out.print("Enter the Column Number : ");
         int col = scan.nextInt();
-        int i = 0;
-        int idx = 0;
+
+        // Call the String Pattern
+        
+        stringPattern(0,0,str,col);
+    }
+    // String Pattern Logic 
+    public static void stringPattern(int i, int idx,String str,int col){
         do{
            int j = 0;
            do{

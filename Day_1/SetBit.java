@@ -5,6 +5,7 @@ public class SetBit {
       int count = 1;  
       System.out.println("First Set Bit Position : "+setbit(n,count));
     }
+    // Find the First SetBit
     public static int setbit (int n,int count){
         if(n == 0) return 0;
         if((n & 1) == 1) return count;

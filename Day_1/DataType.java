@@ -1,6 +1,10 @@
 // 2. Write a program in which, declare all data types like integer, double, float, long integer, character and byte data and print them.
 public class DataType {
     public static void main(String[] args) {
+        dataType();
+    }
+    // Created All Data types Method
+    public static void dataType(){
         String name = "sanjai"; 
         char initial = 'M';
         byte age = 21;
@@ -19,5 +23,5 @@ public class DataType {
         System.out.println("Height : "+height);
         System.out.println("Weight : "+weight);
         System.out.println("Pass : "+isPass);
-    }
+    } 
 }

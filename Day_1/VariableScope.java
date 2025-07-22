@@ -17,6 +17,7 @@ class Student{
         this.name = name;
         this.rollNo = rollNo;
     }
+    // Display Information
     public void displayInfo(){
         System.out.print("Enter The Section : ");
         String section = scan.nextLine(); // Local Variable or Block Variable Inside The Method

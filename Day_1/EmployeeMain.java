@@ -3,6 +3,7 @@
  */
 public class EmployeeMain {
     public static void main(String[] args) {
+        // create Object
         Employee emp = new Employee(1, "Sanjai", "CSE", 200000);
         Employee emp1 = new Employee(2, "indhu", "CSE", 200000);
         emp.display();
